@@ -1,8 +1,8 @@
-def power(num1,num2):
-    if(num2==1):
-        return(num1)
-    if(num2!=1):
-        return(num1*num2(num1,num2-1))
-num1=int(input())
-num2=int(input())
-print(power(num1,num2))
+def power(base,exp):
+    if(exp==1):
+        return(base)
+    elif(exp!=1):
+        return(base*expo(base,exp-1))
+base=input(int)
+exp=input(int)
+print(power(base,exp))
